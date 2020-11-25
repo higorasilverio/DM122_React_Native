@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../Home';
-import Category from '../Category';
+import CategoryList from '../CategoryList';
 import Help from '../Help';
 import Profile from '../Profile';
 import { colors } from '../../styles';
@@ -51,7 +51,7 @@ const BottomTab = () => {
                 }
             }>
         <Tab.Screen name='home' component={Home}/>
-        <Tab.Screen name='category' component={Category}/>
+        <Tab.Screen name='category' component={CategoryList}/>
         <Tab.Screen name='help' component={Help}/>
         <Tab.Screen name='profile' component={Profile}/>
         </Tab.Navigator>
