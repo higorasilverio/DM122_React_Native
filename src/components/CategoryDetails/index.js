@@ -6,8 +6,6 @@ import { useCartContext } from '../../contexts/cart';
 
 const CategoryDetails = ({route}) => {
 
-    const [{items}, setItems] = useCartContext();
-
     const [selectedCategory, setSelectedCategory] = useState({});
 
     useEffect(() => {
