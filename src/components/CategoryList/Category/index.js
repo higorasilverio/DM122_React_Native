@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Image, Text, TouchableOpacity, ScrollView} from 'react-native';
+import {View, Image, Text, TouchableOpacity} from 'react-native';
 import style from './style';
 
 const Category = ({navigation, category }) => {
@@ -11,7 +11,7 @@ const Category = ({navigation, category }) => {
     }
 
     return (
-            <ScrollView>
+            <View>
                     <TouchableOpacity key={category.id} onPress={openDetails} style={style.touchable}>
                         <View style={style.container}>
                             <Image source={{uri: category.image}} style={style.image}/>
@@ -21,7 +21,7 @@ const Category = ({navigation, category }) => {
                             </View>
                         </View>
                     </TouchableOpacity>
-            </ScrollView>
+            </View>
     )
 }
 

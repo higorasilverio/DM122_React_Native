@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {View, Image, Button, Text} from 'react-native';
-import {colors} from '../../styles';
-import style from './style';
-import { useCartContext } from '../../contexts/cart';
+import {ScrollView} from 'react-native';
+import { Product } from '../ProductList/Product';
 
 const CategoryDetails = ({route}) => {
 
@@ -14,15 +12,16 @@ const CategoryDetails = ({route}) => {
     }, [])
 
     return (
-        <View>
-            <Image source={{uri: selectedCategory.image}}/>
-            <View>
-                <Text>{selectedCategory.description}</Text>
-                <Text>{selectedCategory.items}</Text>
-            </View>
-        </View>
+        <ScrollView>
+            {
+                selectedCategory.products.map(product => <Product
+                    navigation={navigation}
+                    product={product}
+                    key={product.id}
+                />)
+            }
+        </ScrollView>
     )
-
 }
 
 export default CategoryDetails;

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
-import style from './style'
+import { ScrollView } from 'react-native';
 import Category from './Category';
 
 const CategoryList = ({ navigation }) => {
@@ -113,7 +112,7 @@ const CategoryList = ({ navigation }) => {
     ])
 
     return (
-        <View>
+        <ScrollView>
             {
                 categories.map(category => <Category
                     navigation={navigation}
@@ -121,7 +120,7 @@ const CategoryList = ({ navigation }) => {
                     key={category.id}
                 />)
             }
-        </View>
+        </ScrollView>
     )
 }
 
