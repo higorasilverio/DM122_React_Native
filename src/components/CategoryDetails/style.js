@@ -1,8 +1,6 @@
 import {StyleSheet, Dimensions} from 'react-native';
 import {colors, fonts, measures} from '../../styles';
 
-const { width } = Dimensions.get('window');
-
 const style = StyleSheet.create({
     container:{
         flex: 1,
