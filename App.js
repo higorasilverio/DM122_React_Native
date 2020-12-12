@@ -1,8 +1,6 @@
-import React from 'react';
-import AppECom from './src/index';
+import React from "react";
+import AppECom from "./src/index";
 
 export default function App() {
-  return (
-    <AppECom />
-  )
+  return <AppECom />;
 }
