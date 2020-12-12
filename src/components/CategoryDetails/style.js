@@ -19,16 +19,19 @@ const style = StyleSheet.create({
     description: {
         fontSize: fonts.big,
         fontWeight: 'bold',
+        color: colors.base
+    },
+    item: {
+        fontSize: fonts.bigger,
+        fontWeight: 'bold',
         color: colors.light
     },
-    price: {
-        fontSize: fonts.big,
-        fontWeight: 'bold',
-        color: '#6959CD'
+    checkIcon:{
+        position: 'absolute',
+        color: colors.base,
+        right: '27.5%',
+        zIndex: 1
     },
-    buttonAdd: {
-        width: width
-    }
 })
 
 export default style;
