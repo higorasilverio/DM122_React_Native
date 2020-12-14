@@ -18,7 +18,7 @@ const Product = ({ navigation, product }) => {
           name="ios-checkmark-circle-outline"
           size={24}
           style={style.checkIcon}
-        />
+        /> 
         <Image source={{ uri: product.image }} style={style.image} />
         <View>
           <Text style={style.description}>{product.description}</Text>

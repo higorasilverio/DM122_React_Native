@@ -62,7 +62,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Casa",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -70,7 +70,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Saúde",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -78,7 +78,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Informática",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -86,7 +86,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Vestuário",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -94,7 +94,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Cama, Mesa e Banho",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -102,7 +102,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Ferramentas",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -110,7 +110,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Cama, Mesa e Banho",
-      items: "5",
+      items: "0",
       products: [],
     },
     {
@@ -118,7 +118,7 @@ const CategoryList = ({ navigation }) => {
       image:
         "https://images.neimanmarcus.com/ca/1/product_assets/B/3/T/5/S/NMB3T5S_au.jpg",
       description: "Ferramentas",
-      items: "5",
+      items: "0",
       products: [],
     },
   ]);
